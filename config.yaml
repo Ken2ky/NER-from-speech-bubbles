@@ -1,0 +1,8 @@
+# use model as 'simple' if you dont want to use yolo
+outputFilePath: "./output.json"
+rootDir: "./sample"
+easyocrLanguages:
+  - "en"
+spacyModel: "en_core_web_trf"
+model: "Yolo"
+modelpath: "./models/yolo_recognition_model.pt"
